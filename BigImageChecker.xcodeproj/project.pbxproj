@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		926A4E8E2758DF6B00F210A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A4E8D2758DF6B00F210A7 /* AppDelegate.m */; };
+		926A4E912758DF6B00F210A7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A4E902758DF6B00F210A7 /* SceneDelegate.m */; };
+		926A4E942758DF6B00F210A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A4E932758DF6B00F210A7 /* ViewController.m */; };
+		926A4E972758DF6C00F210A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926A4E952758DF6C00F210A7 /* Main.storyboard */; };
+		926A4E992758DF6F00F210A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926A4E982758DF6F00F210A7 /* Assets.xcassets */; };
+		926A4E9C2758DF6F00F210A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926A4E9A2758DF6F00F210A7 /* LaunchScreen.storyboard */; };
+		926A4E9F2758DF6F00F210A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A4E9E2758DF6F00F210A7 /* main.m */; };
+		926A4EA92758DF9400F210A7 /* SDBigImageTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A4EA62758DF9400F210A7 /* SDBigImageTracker.m */; };
+		926A4EAA2758DF9400F210A7 /* BigImageLogsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926A4EA72758DF9400F210A7 /* BigImageLogsController.m */; };
+		9CC732D3FD25E78772F4E5A4 /* libPods-BigImageChecker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3048E0E8452F44E71E342D16 /* libPods-BigImageChecker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3048E0E8452F44E71E342D16 /* libPods-BigImageChecker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BigImageChecker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFA44C4D6FB2DCED6FB1C14 /* Pods-BigImageChecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigImageChecker.debug.xcconfig"; path = "Target Support Files/Pods-BigImageChecker/Pods-BigImageChecker.debug.xcconfig"; sourceTree = "<group>"; };
+		726F686018A4113829A783A4 /* Pods-BigImageChecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigImageChecker.release.xcconfig"; path = "Target Support Files/Pods-BigImageChecker/Pods-BigImageChecker.release.xcconfig"; sourceTree = "<group>"; };
+		926A4E892758DF6B00F210A7 /* BigImageChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigImageChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		926A4E8C2758DF6B00F210A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		926A4E8D2758DF6B00F210A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		926A4E8F2758DF6B00F210A7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		926A4E902758DF6B00F210A7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		926A4E922758DF6B00F210A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		926A4E932758DF6B00F210A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		926A4E962758DF6C00F210A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		926A4E982758DF6F00F210A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		926A4E9B2758DF6F00F210A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		926A4E9D2758DF6F00F210A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926A4E9E2758DF6F00F210A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		926A4EA52758DF9400F210A7 /* SDBigImageTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBigImageTracker.h; sourceTree = "<group>"; };
+		926A4EA62758DF9400F210A7 /* SDBigImageTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBigImageTracker.m; sourceTree = "<group>"; };
+		926A4EA72758DF9400F210A7 /* BigImageLogsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigImageLogsController.m; sourceTree = "<group>"; };
+		926A4EA82758DF9400F210A7 /* BigImageLogsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigImageLogsController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		926A4E862758DF6B00F210A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC732D3FD25E78772F4E5A4 /* libPods-BigImageChecker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B01C0CFCB02A67879EDC4CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA44C4D6FB2DCED6FB1C14 /* Pods-BigImageChecker.debug.xcconfig */,
+				726F686018A4113829A783A4 /* Pods-BigImageChecker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		926A4E802758DF6B00F210A7 = {
+			isa = PBXGroup;
+			children = (
+				926A4E8B2758DF6B00F210A7 /* BigImageChecker */,
+				926A4E8A2758DF6B00F210A7 /* Products */,
+				8B01C0CFCB02A67879EDC4CF /* Pods */,
+				EC21DA5EBC2454790EB6B313 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		926A4E8A2758DF6B00F210A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926A4E892758DF6B00F210A7 /* BigImageChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926A4E8B2758DF6B00F210A7 /* BigImageChecker */ = {
+			isa = PBXGroup;
+			children = (
+				926A4E8C2758DF6B00F210A7 /* AppDelegate.h */,
+				926A4E8D2758DF6B00F210A7 /* AppDelegate.m */,
+				926A4E8F2758DF6B00F210A7 /* SceneDelegate.h */,
+				926A4E902758DF6B00F210A7 /* SceneDelegate.m */,
+				926A4E922758DF6B00F210A7 /* ViewController.h */,
+				926A4E932758DF6B00F210A7 /* ViewController.m */,
+				926A4EA82758DF9400F210A7 /* BigImageLogsController.h */,
+				926A4EA72758DF9400F210A7 /* BigImageLogsController.m */,
+				926A4EA52758DF9400F210A7 /* SDBigImageTracker.h */,
+				926A4EA62758DF9400F210A7 /* SDBigImageTracker.m */,
+				926A4E952758DF6C00F210A7 /* Main.storyboard */,
+				926A4E982758DF6F00F210A7 /* Assets.xcassets */,
+				926A4E9A2758DF6F00F210A7 /* LaunchScreen.storyboard */,
+				926A4E9D2758DF6F00F210A7 /* Info.plist */,
+				926A4E9E2758DF6F00F210A7 /* main.m */,
+			);
+			path = BigImageChecker;
+			sourceTree = "<group>";
+		};
+		EC21DA5EBC2454790EB6B313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3048E0E8452F44E71E342D16 /* libPods-BigImageChecker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		926A4E882758DF6B00F210A7 /* BigImageChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926A4EA22758DF6F00F210A7 /* Build configuration list for PBXNativeTarget "BigImageChecker" */;
+			buildPhases = (
+				C0916301022935E87BB0760D /* [CP] Check Pods Manifest.lock */,
+				926A4E852758DF6B00F210A7 /* Sources */,
+				926A4E862758DF6B00F210A7 /* Frameworks */,
+				926A4E872758DF6B00F210A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigImageChecker;
+			productName = BigImageChecker;
+			productReference = 926A4E892758DF6B00F210A7 /* BigImageChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926A4E812758DF6B00F210A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					926A4E882758DF6B00F210A7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 926A4E842758DF6B00F210A7 /* Build configuration list for PBXProject "BigImageChecker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 926A4E802758DF6B00F210A7;
+			productRefGroup = 926A4E8A2758DF6B00F210A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				926A4E882758DF6B00F210A7 /* BigImageChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		926A4E872758DF6B00F210A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A4E9C2758DF6F00F210A7 /* LaunchScreen.storyboard in Resources */,
+				926A4E992758DF6F00F210A7 /* Assets.xcassets in Resources */,
+				926A4E972758DF6C00F210A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0916301022935E87BB0760D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigImageChecker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		926A4E852758DF6B00F210A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926A4E942758DF6B00F210A7 /* ViewController.m in Sources */,
+				926A4EAA2758DF9400F210A7 /* BigImageLogsController.m in Sources */,
+				926A4E8E2758DF6B00F210A7 /* AppDelegate.m in Sources */,
+				926A4EA92758DF9400F210A7 /* SDBigImageTracker.m in Sources */,
+				926A4E9F2758DF6F00F210A7 /* main.m in Sources */,
+				926A4E912758DF6B00F210A7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		926A4E952758DF6C00F210A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926A4E962758DF6C00F210A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		926A4E9A2758DF6F00F210A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926A4E9B2758DF6F00F210A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		926A4EA02758DF6F00F210A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		926A4EA12758DF6F00F210A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		926A4EA32758DF6F00F210A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFA44C4D6FB2DCED6FB1C14 /* Pods-BigImageChecker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9X5AAY2EF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BigImageChecker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = styf.BigImageChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		926A4EA42758DF6F00F210A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726F686018A4113829A783A4 /* Pods-BigImageChecker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9X5AAY2EF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BigImageChecker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = styf.BigImageChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		926A4E842758DF6B00F210A7 /* Build configuration list for PBXProject "BigImageChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A4EA02758DF6F00F210A7 /* Debug */,
+				926A4EA12758DF6F00F210A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926A4EA22758DF6F00F210A7 /* Build configuration list for PBXNativeTarget "BigImageChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A4EA32758DF6F00F210A7 /* Debug */,
+				926A4EA42758DF6F00F210A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926A4E812758DF6B00F210A7 /* Project object */;
+}
